@@ -1,0 +1,14 @@
+Script started on 2022-10-07 23:21:20+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="58"]
+[?2004h]0;top@top-VirtualBox: ~/repos/fullstackopen-2022-part12[01;32mtop@top-VirtualBox[00m:[01;34m~/repos/fullstackopen-2022-part12[00m$ docker run -it ubuntu bash
+[?2004l[?2004h]0;root@3d56b7acaadf: /root@3d56b7acaadf:/# [K]0;root@3d56b7acaadf: /root@3d56b7acaadf:/# mkdir usr/src/app
+[?2004l[?2004h]0;root@3d56b7acaadf: /root@3d56b7acaadf:/# cd usr/src/app/
+[?2004l[?2004h]0;root@3d56b7acaadf: /usr/src/approot@3d56b7acaadf:/usr/src/app# touch       ls
+[?2004l[?2004h]0;root@3d56b7acaadf: /usr/src/approot@3d56b7acaadf:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@3d56b7acaadf: /usr/src/approot@3d56b7acaadf:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@3d56b7acaadf: /usr/src/approot@3d56b7acaadf:/usr/src/app# exit
+[?2004lexit
+[?2004h]0;top@top-VirtualBox: ~/repos/fullstackopen-2022-part12[01;32mtop@top-VirtualBox[00m:[01;34m~/repos/fullstackopen-2022-part12[00m$ exit
+[?2004lexit
+
+Script done on 2022-10-07 23:22:47+03:00 [COMMAND_EXIT_CODE="0"]
