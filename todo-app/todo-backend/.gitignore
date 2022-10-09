@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# data from mongo
+mongo_data
+
+# testing requests to db
+request.rest
