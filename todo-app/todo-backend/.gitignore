@@ -60,8 +60,9 @@ typings/
 # next.js build output
 .next
 
-# data from mongo
+# data from mongo & redis
 mongo_data
+redis_data
 
 # testing requests to db
 request.rest
