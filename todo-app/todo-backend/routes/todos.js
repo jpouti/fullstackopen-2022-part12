@@ -15,10 +15,14 @@ router.post('/', async (req, res) => {
     text: req.body.text,
     done: false
   })
+  // increase added todos counter
   const currentCount = parseInt(await redis.getAsync('added_todos'))
-  console.log(currentCount)
-  const setCount = await redis.setAsync('added_todos', (currentCount + 1))
-  console.log(setCount)
+  if (!currentCount || isNaN(currentCount)) {
+    const setCount = await redis.setAsync('added_todos', 1)
+  } else {
+    const setCount = await redis.setAsync('added_todos', (currentCount + 1))
+  }
+  
   res.send(todo);
 });
 
