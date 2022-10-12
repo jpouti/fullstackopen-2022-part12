@@ -9,7 +9,7 @@ services:
     volumes:
       - ./:/usr/src/app
     ports:
-      - 3000:3000
+      - 3001:3001
     container_name: server
     environment:
       - REDIS_URL=redis://redis:6379
